@@ -174,7 +174,7 @@ body {
 }
 
 .enterButton:hover {
-    animation: upperButton 0.1s;
+    transition: upperButton linear 0.1s;
 }
 
 @keyframes upperButton {

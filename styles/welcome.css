@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Inter_Black';
+    src: url(../fonts/Inter_18pt-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Inter_Bold';
+    src: url(../fonts/Inter_18pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter_SemiBold';
+    src: url(../fonts/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter_ExtraBold';
+    src: url(../fonts/Inter_18pt-ExtraBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #2A3A4B;
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.mainFrame {
+    width: 25vw;
+    height: 26vw;
+    
+    background-color: #E3E3E3;
+    border-radius: 2vw;
+    box-shadow: 
+        0vw 0.1vw 0.1vw rgb(20, 20, 20);
+
+    display: block;
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.text1 {
+    font-family: 'Inter_Black';
+    font-size: 2.5vw;
+
+    color: #2A3A4B;
+
+    margin-top: 1.8vw;
+}
+
+.text2 {
+    font-family: 'Inter_ExtraBold';
+    font-size: 1.1vw;
+
+    color: #000000;
+
+    margin-top: 0.6vw;
+}
+
+.circlePic {
+    background-image: url(../img/perfilPic.png);
+    background-size: cover;
+    
+    width: 6vw;
+    height: 6vw;
+
+    border-radius: 100%;
+    box-shadow: 
+        0vw 0.1vw 0.1vw rgb(20, 20, 20);
+
+    margin-left: 9.3vw;
+    margin-top: 0.7vw;
+}
+
+.text3 {
+    font-family: 'Inter_Bold';
+    font-size: 1.2vw;
+
+    color: #000000;
+
+    margin-top: 1vw;
+}
+
+.text4 {
+    font-family: 'Inter_Bold';
+    font-size: 0.8vw;
+    opacity: 0.5;
+
+    color: #000000;
+
+    margin-top: 0.4vw;
+}
