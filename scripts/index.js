@@ -27,6 +27,7 @@ document.querySelector('.enterButton').addEventListener('click', async (e) => {
     );
 
     if (foundUser) {
+
       window.location.href = './pages/dashboard.html';
     } else {
       errorMessage.textContent = 'Usuario o contraseña incorrectos.';
