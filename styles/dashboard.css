@@ -166,6 +166,7 @@ header {
     flex-direction: column;
 
     align-items: center;
+    position: fixed;
 }
 
 .pageTittle {
@@ -205,6 +206,24 @@ header {
     border-radius: 0.8vw;
     box-shadow: 
         0vw 0.1vw 0.3vw rgb(182, 182, 182);
+
+    display: flex;
+    flex-direction: arrow;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 13vw;
+}
+
+.textInFrame {
+    font-family: 'Inter_Semibold';
+    font-size: 1.4vw;
+}
+
+.courseNumber {
+    font-family: 'Inter_Extrabold';
+    font-size: 1.5vw;
 }
 
 .frame2{
@@ -215,6 +234,19 @@ header {
     border-radius: 0.8vw;
     box-shadow: 
         0vw 0.1vw 0.3vw rgb(182, 182, 182);
+    
+    display: flex;
+    flex-direction: arrow;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 9vw;
+}
+
+.pendingAssignmentsNumber {
+    font-family: 'Inter_Extrabold';
+    font-size: 1.5vw;
 }
 
 .frame3{
@@ -225,4 +257,53 @@ header {
     border-radius: 0.8vw;
     box-shadow: 
         0vw 0.1vw 0.3vw rgb(182, 182, 182);
+    
+    display: flex;
+    flex-direction: arrow;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10vw;
+}
+
+.pendingAssignmentsNumber {
+    font-family: 'Inter_Extrabold';
+    font-size: 1.5vw;
+}
+
+.enrolledCourses {
+    width: 100%;
+    height: 3vw;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    gap: 61.8vw;
+
+    margin-top: 2vw;
+}
+
+.textEnrolledCourses {
+    font-family: 'Inter_Extrabold';
+    font-size: 1.3vw;
+}
+
+.moreCourses {
+    width: 10vw;
+    height: 2vw;
+
+    border: none;
+    border-radius: 0.5vw;
+    background-color: #2A3A4B;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(182, 182, 182);
+}
+
+.buttonText {
+    font-family: 'Inter_Bold';
+    font-size: 0.8vw;
+
+    color: white;
 }
