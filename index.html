@@ -1,35 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/index.css">
-    <title> LMS Portal </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>LMS Portal</title>
 </head>
 <body>
     <div class="mainFrame">
-        <p class="text1">
-            LMS </br>
-            PORTAL
-        </p>
-        <p class="text2">
-            Bienvenido de nuevo!
-        </p>
-        <p class="text3">
-            Ingresa tus datos para ingresar a la plataforma.
-        </p>
-        <p class="text4">
-            Usuario
-        </p>
-        <input type="text" class="usernameInput"/>
-        <p class="text5">
-            Contraseña
-        </p>
-        <input type="password" class="passwordInput"/> </br>
-        <a href="./pages/dashboard.html"> 
-            <button class="enterButton"> Ingresar </button>
-        </a>
+        <p class="text1">LMS<br />PORTAL</p>
+        <p class="text2">Bienvenido de nuevo!</p>
+        <p class="text3">Ingresa tus datos para ingresar a la plataforma.</p>
+
+        <p class="text4">Usuario o correo</p>
+        <input type="text" id="username" class="usernameInput" />
+
+        <p class="text5">Contraseña</p>
+        <input type="password" id="password" class="passwordInput" />
+
+        <button class="enterButton">Ingresar</button>
+
+        <p class="errorMessage"></p>
     </div>
+
+    <script src="./scripts/index.js"></script>
 </body>
-<script src="./scripts/index.js"></script>
 </html>
