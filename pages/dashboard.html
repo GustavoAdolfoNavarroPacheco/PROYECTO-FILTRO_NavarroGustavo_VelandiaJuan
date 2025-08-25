@@ -35,14 +35,25 @@
             </p>
         </a>
 
-        <button class="profile">
-            <div class="profilePic"></div>
-            <p class="username">
-                Juan </br>
-                Velandia
-            </p> </br>
-            <img class="downArrow" src="../img/downArrow.png" />
-        </button>
+        <div class="profile-container">
+            <button id="profileButton" class="profile">
+                <div class="profilePic"></div>
+                <p class="username">Juan<br>Velandia</p>
+                <img class="downArrow" src="../img/downArrow.png" />
+            </button>
+
+            <div id="dropdownMenu" class="dropdown-menu">
+                <div class="dropdown-avatar"></div>
+                <p class="full-name">Juan Esteban Velandia Beltran</p>
+                <button onclick="location.href='../index.html'" class="dropdown-btn">Log out</button>
+                <button onclick="location.href='profilestudent.html'" class="dropdown-btn">See profile</button>
+
+
+            </div>
+        </div>
+
+
+
     </header> </br>
     <div class="mainContainer">
         <p class="pageTittle">

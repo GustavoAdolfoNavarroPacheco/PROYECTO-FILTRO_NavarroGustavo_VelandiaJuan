@@ -8,4 +8,17 @@ window.addEventListener('DOMContentLoaded', () => {
 
   document.querySelector('.username').innerHTML = user.fullName.split(' ').slice(0, 2).join('<br>');
   document.querySelector('.profilePic').style.backgroundImage = `url('${user.avatar}')`;
+  document.querySelector('.dropdown-avatar').style.backgroundImage = `url('${user.avatar}')`;
+
+  const profileButton = document.getElementById('profileButton');
+  const dropdownMenu = document.getElementById('dropdownMenu');
+
+  profileButton.addEventListener('click', (e) => {
+    e.stopPropagation();
+    dropdownMenu.classList.toggle('show');
+  });
+
+  window.addEventListener('click', () => {
+    dropdownMenu.classList.remove('show');
+  });
 });
