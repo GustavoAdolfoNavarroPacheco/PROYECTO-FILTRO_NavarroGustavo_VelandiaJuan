@@ -447,3 +447,39 @@ header {
 
     cursor: pointer;
 }
+
+.line2 {
+    width: 85vw;
+    height: 0.06vw;
+
+    opacity: 0.2;
+
+    background-color: black;
+
+    margin-top: 2vw;
+    margin-left: 7.5vw;
+    z-index: -1;
+}
+
+.sectionText2 {
+    font-family: 'Inter_Extrabold';
+    font-size: 1.7vw;
+
+    color: #2A3A4B;
+
+    margin-left: -77.9vw;
+    margin-top: 1vw;
+}
+
+.coursesFrames2 {
+    width: 27vw;
+    height: 23vw;
+
+    background-color: white;
+    border-radius: 0.8vw;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(182, 182, 182);
+
+    margin-left: 7.5vw;
+    margin-top: 1vw;
+}
