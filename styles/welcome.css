@@ -72,19 +72,14 @@ body {
 }
 
 .circlePic {
-    background-image: url(../img/perfilPic.png);
-    background-size: cover;
-    
-    width: 6vw;
-    height: 6vw;
-
-    border-radius: 100%;
-    box-shadow: 
-        0vw 0.1vw 0.1vw rgb(20, 20, 20);
-
-    margin-left: 9.3vw;
-    margin-top: 0.7vw;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
 }
+
 
 .text3 {
     font-family: 'Inter_Bold';

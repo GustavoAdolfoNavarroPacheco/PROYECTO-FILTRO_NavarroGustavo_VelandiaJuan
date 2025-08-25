@@ -1,8 +1,7 @@
-const errorMessage = document.querySelector('.errorMessage');
-
 document.querySelector('.enterButton').addEventListener('click', async (e) => {
   e.preventDefault();
 
+  const errorMessage = document.querySelector('.errorMessage');
   errorMessage.style.display = 'none';
   errorMessage.textContent = '';
 
@@ -27,8 +26,8 @@ document.querySelector('.enterButton').addEventListener('click', async (e) => {
     );
 
     if (foundUser) {
-
-      window.location.href = './pages/dashboard.html';
+      localStorage.setItem('userLogged', JSON.stringify(foundUser));
+      window.location.href = './pages/welcome.html';
     } else {
       errorMessage.textContent = 'Usuario o contraseña incorrectos.';
       errorMessage.style.display = 'block';
