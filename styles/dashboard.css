@@ -160,13 +160,11 @@ header {
 
 .mainContainer {
     width: 100%;
-    height: 96.8vh;
 
     display: flex;
     flex-direction: column;
 
     align-items: center;
-    position: fixed;
 }
 
 .pageTittle {
@@ -187,6 +185,7 @@ header {
     background-color: black;
 
     margin-top: 0.5vw;
+    z-index: -1;
 }
 
 .stats {
@@ -372,6 +371,7 @@ header {
 
     margin-top: 1vw;
     margin-left: 0.9vw;
+    z-index: -1;
 }
 
 .things2_1 {
@@ -462,7 +462,7 @@ header {
 
 .recentActivity {
     width: 85vw;
-    height: 25vw;
+    height: 14vw;
 
     background-color: white;
     border-radius: 0.8vw;
@@ -470,7 +470,7 @@ header {
         0vw 0.1vw 0.3vw rgb(182, 182, 182);
 
     margin-top: 3vw;
-    margin-bottom: 1vw;
+    margin-bottom: 3vw;
 
     display: block;
 
@@ -485,8 +485,8 @@ header {
 
     text-align: left;
     
-    margin-top: 0.8vw;
-    margin-left: 0.8vw;
+    margin-top: 1.3vw;
+    margin-left: 1.3vw;
 }
 
 .container {
@@ -511,7 +511,11 @@ header {
         0vw 0.1vw 0.3vw rgb(182, 182, 182);
     
     font-family: 'Inter_Semibold';
+}
 
+.text1Container {
+    width: auto;
+    height: 4vw;
 }
 
 .activityText1 {
@@ -532,5 +536,5 @@ header {
     text-align: left;
 
     margin-left: 1vw;
-    margin-top: 2vw;
+    z-index: -1;
 }
