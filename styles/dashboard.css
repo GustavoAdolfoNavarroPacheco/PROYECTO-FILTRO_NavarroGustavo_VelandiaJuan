@@ -166,6 +166,7 @@ header {
     flex-direction: column;
 
     align-items: center;
+    position: fixed;
 }
 
 .pageTittle {
@@ -205,6 +206,24 @@ header {
     border-radius: 0.8vw;
     box-shadow: 
         0vw 0.1vw 0.3vw rgb(182, 182, 182);
+
+    display: flex;
+    flex-direction: arrow;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 13vw;
+}
+
+.textInFrame {
+    font-family: 'Inter_Semibold';
+    font-size: 1.4vw;
+}
+
+.courseNumber {
+    font-family: 'Inter_Extrabold';
+    font-size: 1.5vw;
 }
 
 .frame2{
@@ -215,6 +234,19 @@ header {
     border-radius: 0.8vw;
     box-shadow: 
         0vw 0.1vw 0.3vw rgb(182, 182, 182);
+    
+    display: flex;
+    flex-direction: arrow;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 9vw;
+}
+
+.pendingAssignmentsNumber {
+    font-family: 'Inter_Extrabold';
+    font-size: 1.5vw;
 }
 
 .frame3{
@@ -225,4 +257,280 @@ header {
     border-radius: 0.8vw;
     box-shadow: 
         0vw 0.1vw 0.3vw rgb(182, 182, 182);
+    
+    display: flex;
+    flex-direction: arrow;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10vw;
+}
+
+.pendingAssignmentsNumber {
+    font-family: 'Inter_Extrabold';
+    font-size: 1.5vw;
+}
+
+.enrolledCourses {
+    width: 100%;
+    height: 3vw;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    gap: 61.8vw;
+
+    margin-top: 2vw;
+}
+
+.textEnrolledCourses {
+    font-family: 'Inter_Extrabold';
+    font-size: 1.3vw;
+}
+
+.moreCourses {
+    width: 10vw;
+    height: 2vw;
+
+    border: none;
+    border-radius: 0.5vw;
+    background-color: #2A3A4B;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(182, 182, 182);
+}
+
+.buttonText {
+    font-family: 'Inter_Bold';
+    font-size: 0.8vw;
+
+    color: white;
+}
+
+.courses {
+    display: flex;
+    gap: 2vw;
+    margin-top: 0.5vw;
+}
+
+.coursesFrames {
+    width: 27vw;
+    height: 18vw;
+
+    background-color: white;
+    border-radius: 0.8vw;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(182, 182, 182);
+}
+
+.imgContainer {
+    width: 27vw;
+    height: 8vw;
+
+    background-image: url(../img/unityBanner.png);
+    background-size: cover;
+
+    border-top-right-radius: 0.8vw;
+    border-top-left-radius: 0.8vw;
+}
+
+.things1 {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Inter_Extrabold';
+    font-size: 1.3vw;
+
+    gap: 6vw;
+
+    margin-top: 1vw;
+}
+
+.coursePercentage {
+    color: #2ECD70;
+}
+
+.courseTrainer {
+    font-family: 'Inter_Semibold';
+    font-size: 0.9vw;
+
+    margin-top: 0.5vw;
+    
+    text-align: left;
+    margin-left: 0.9vw;
+}
+
+.courseLine {
+    width: 25.06vw;
+    height: 0.050vw;
+
+    background-color: #000000;
+    opacity: 0.4;
+
+    margin-top: 1vw;
+    margin-left: 0.9vw;
+}
+
+.things2_1 {
+    width: 25.06vw;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 0.9vw;
+
+    gap: 3.7vw;
+}
+
+.continueLearning {
+    font-family: 'Inter_bold';
+    font-size: 1.1vw;
+
+    color: white;
+
+    width: 15vw;
+    height: 2.4vw;
+
+    background-color: #2A3A4B;
+    border: none;
+    border-radius: 0.6vw;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(182, 182, 182);
+}
+
+.lessonsNumbers {
+    font-family: 'Inter_Bold';
+    font-size: 0.9vw;
+}
+
+.things2 {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Inter_Extrabold';
+    font-size: 1.3vw;
+
+    gap: 8.3vw;
+
+    margin-top: 1vw;
+}
+
+.things3 {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Inter_Extrabold';
+    font-size: 1.3vw;
+
+    gap: 6.6vw;
+
+    margin-top: 1vw;
+}
+
+.imgContainer_2 {
+    width: 27vw;
+    height: 8vw;
+
+    background-image: url(../img/nodejsBanner.png);
+    background-size: cover;
+
+    border-top-right-radius: 0.8vw;
+    border-top-left-radius: 0.8vw;
+}
+
+.imgContainer_3 {
+    width: 27vw;
+    height: 8vw;
+
+    background-image: url(../img/javascriptBanner.png);
+    background-size: cover;
+
+    border-top-right-radius: 0.8vw;
+    border-top-left-radius: 0.8vw;
+}
+
+.recentActivity {
+    width: 85vw;
+    height: 25vw;
+
+    background-color: white;
+    border-radius: 0.8vw;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(182, 182, 182);
+
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+
+    display: block;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.recentActivityText {
+    font-family: 'Inter_Semibold';
+    font-size: 1.8vw;
+
+    text-align: left;
+    
+    margin-top: 0.8vw;
+    margin-left: 0.8vw;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 2vw;
+}
+
+.activityFrame {
+    width: 26vw;
+    height: 7vw;
+
+    background-color: #E3E3E3;
+    border-radius: 0.8vw;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(182, 182, 182);
+    
+    font-family: 'Inter_Semibold';
+
+}
+
+.activityText1 {
+    font-size: 1.2vw;
+
+    margin-left: 1vw;
+    margin-top: 1vw;
+
+    text-align: left;
+}
+
+.activityText2 {
+    font-family: 'Inter_Extrabold';
+    font-size: 1.1vw;
+
+    opacity: 0.5;
+
+    text-align: left;
+
+    margin-left: 1vw;
+    margin-top: 2vw;
 }
