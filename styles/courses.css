@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'Inter_Black';
+    src: url(../fonts/Inter_18pt-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Inter_Bold';
+    src: url(../fonts/Inter_18pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter_SemiBold';
+    src: url(../fonts/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter_ExtraBold';
+    src: url(../fonts/Inter_18pt-ExtraBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body { 
+    width: 100%;
+    height: 100vh;
+
+    display: block;
+    
+    background-color: #E3E3E3;
+    
+    align-items: center;
+    text-align: center;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.topBar {
+    width: 100%;
+    height: 3.2vw;
+
+    background-color: #2A3A4B;
+    position: fixed;
+}
+
+.lmsLogo {
+    font-family: 'Inter_ExtraBold';
+    font-size: 0.9vw;
+    
+    color: white;
+    text-align: left;
+
+    margin-left: 2vw;
+}
+
+.text1 {
+    font-family: 'Inter_ExtraBold';
+    font-size: 0.8vw;
+
+    color: white;
+
+    margin-left: 29.5vw;
+}
+
+.text1:hover {
+    border-bottom: solid 0.090vw white;
+}
+
+.text2 {
+    font-family: 'Inter_ExtraBold';
+    font-size: 0.8vw;
+
+    color: white;
+
+    margin-left: 5vw;
+}
+
+.text2:hover {
+    border-bottom: solid 0.090vw white;
+}
+
+.text3 {
+    font-family: 'Inter_ExtraBold';
+    font-size: 0.8vw;
+
+    color: white;
+
+    margin-left: 5vw;
+}
+
+.text3:hover {
+    border-bottom: solid 0.090vw white;
+}
+
+.text4 {
+    font-family: 'Inter_ExtraBold';
+    font-size: 0.8vw;
+
+    color: white;
+
+    margin-left: 5vw;
+}
+
+.text4:hover {
+    border-bottom: solid 0.090vw white;
+}
+
+.profile {
+    width: 7.5vw;
+    height: 1.8vw;
+    
+    outline: none;
+    border: none;
+    border-radius: 0.4vw;
+    background-color: #3F5368;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(54, 54, 54);
+    cursor: pointer;
+    
+    margin-left: 24vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilePic {
+    width: 1.3vw;
+    height: 1.3vw;
+
+    background-color: white;
+    border-radius: 100%;
+}
+
+.username {
+    font-family: 'Inter_Bold';
+    font-size: 0.55vw;
+
+    color: white;
+
+    text-align: left;
+
+    margin-left: 0.8vw;
+}
+
+.downArrow {
+    width: 0.4vw;
+    height: 0.4vw;
+
+    margin-left: 0.8vw;
+}
+
+.mainContainer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.pageTittle {
+    font-family: 'Inter_ExtraBold';
+    font-size: 2.5vw;
+
+    margin-top: 4vw;
+
+    color: #2A3A4B;
+}
+
+.line {
+    width: 85vw;
+    height: 0.06vw;
+
+    opacity: 0.2;
+
+    background-color: black;
+
+    margin-top: 0.5vw;
+    z-index: -1;
+}
+
+.sectionText1 {
+    font-family: 'Inter_Extrabold';
+    font-size: 1.7vw;
+
+    color: #2A3A4B;
+
+    margin-left: -73.7vw;
+    margin-top: 1vw;
+}
+
+.courses {
+    display: flex;
+    gap: 2vw;
+    margin-top: 1.5vw;
+}
+
+.coursesFrames {
+    width: 27vw;
+    height: 23vw;
+
+    background-color: white;
+    border-radius: 0.8vw;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(182, 182, 182);
+}
+
+.imgContainer {
+    width: 27vw;
+    height: 8vw;
+
+    background-image: url(../img/unityBanner.png);
+    background-size: cover;
+
+    border-top-right-radius: 0.8vw;
+    border-top-left-radius: 0.8vw;
+}
+
+.things1 {
+    display: flex;
+
+    text-align: left;
+
+    font-family: 'Inter_Extrabold';
+    font-size: 1.3vw;
+
+    margin-left: 0.9vw;
+    margin-top: 1vw;
+}
+
+.textInfo {
+    font-family: 'Inter_Semibold';
+    font-size: 1vw;
+
+    margin-top: 1vw;
+    
+    text-align: left;
+    margin-left: 0.9vw;
+}
+
+.courseLine {
+    width: 25.06vw;
+    height: 0.050vw;
+
+    background-color: #323232;
+    opacity: 0.4;
+
+    margin-top: 1vw;
+    margin-left: 0.9vw;
+    z-index: -1;
+}
+
+.things2_1 {
+    width: 25.06vw;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 0.9vw;
+    gap: 1vw;
+}
+
+.moreInfo {
+    font-family: 'Inter_bold';
+    font-size: 1.1vw;
+
+    color: white;
+
+    width: 15vw;
+    height: 2.4vw;
+
+    background-color: #2A3A4B;
+    border: none;
+    border-radius: 0.6vw;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(182, 182, 182);
+
+    margin-top: 2vw;
+}
+
+.enrollNow {
+    font-family: 'Inter_bold';
+    font-size: 1.1vw;
+
+    color: white;
+
+    width: 9vw;
+    height: 2.4vw;
+
+    background-color: #2A3A4B;
+    border: none;
+    border-radius: 0.6vw;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(182, 182, 182);
+
+    margin-top: 2vw;
+}
+
