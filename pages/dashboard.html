@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/dashboard.css">
-  <title>LMS Portal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/dashboard.css">
+    <title> LMS Portal </title>
 </head>
+
 <body>
     <header class="topBar">
         <p class="lmsLogo">
@@ -32,25 +34,117 @@
                 Progress
             </p>
         </a>
-        
+
         <button class="profile">
             <div class="profilePic"></div>
             <p class="username">
                 Juan </br>
                 Velandia
             </p> </br>
-            <img class="downArrow" src="../img/downArrow.png"/>
+            <img class="downArrow" src="../img/downArrow.png" />
         </button>
     </header> </br>
     <div class="mainContainer">
         <p class="pageTittle">
             Dashboard
-        </p> 
+        </p>
         <div class="line"></div>
         <div class="stats">
-            <div class="frame1"></div>
-            <div class="frame2"></div>
-            <div class="frame3"></div>
+            <div class="frame1">
+                <p class="textInFrame"> Active Courses </p>
+                <p class="courseNumber"> 3 </p>
+            </div>
+            <div class="frame2">
+                <p class="textInFrame"> Pending Assingments</p>
+                <p class="pendingAssignmentsNumber"> 2 </p>
+            </div>
+            <div class="frame3">
+                <p class="textInFrame"> Overall Progress</p>
+                <p class="pendingAssignmentsNumber"> 75% </p>
+            </div>
+        </div>
+        <div class="enrolledCourses">
+            <p class="textEnrolledCourses"> My Enrolled Courses </p>
+            <a href="./courses.html" class="redirection">
+                <button class="moreCourses">
+                    <p class="buttonText"> More Courses </p>
+                </button>
+            </a>
+        </div>
+        <div class="courses">
+            <div class="coursesFrames">
+                <div class="imgContainer">
+                </div>
+                <div class="things1">
+                    <p class="courseTittle"> Unity Game Development</p>
+                    <p class="coursePercentage"> 65%</p>
+                </div>
+                <p class="courseTrainer"> Dr. Juan Velandia </p>
+                <div class="courseLine"></div>
+                <div class="things2_1">
+                    <a href="./courses.html">
+                        <button class="continueLearning">
+                            <p class="continueLearningText"> Continue Learning </p>
+                        </button>
+                    </a>
+                    <p class="lessonsNumbers"> 13/20 Lessons </p>
+                </div>
+            </div>
+            <div class="coursesFrames">
+                <div class="imgContainer_2">
+                </div>
+                <div class="things2">
+                    <p class="courseTittle"> Node.js Development</p>
+                    <p class="coursePercentage"> 30%</p>
+                </div>
+                <p class="courseTrainer"> Dr. Robinson Dominguez </p>
+                <div class="courseLine"></div>
+                <div class="things2_1">
+                    <a href="./courses.html">
+                        <button class="continueLearning">
+                            <p class="continueLearningText"> Continue Learning </p>
+                        </button>
+                    </a>
+                    <p class="lessonsNumbers"> 6/20 Lessons </p>
+                </div>
+            </div>
+            <div class="coursesFrames">
+                <div class="imgContainer_3">
+                </div>
+                <div class="things3">
+                    <p class="courseTittle"> JavaScript Development</p>
+                    <p class="coursePercentage"> 90%</p>
+                </div>
+                <p class="courseTrainer"> Dr. Yamith Garcia </p>
+                <div class="courseLine"></div>
+                <div class="things2_1">
+                    <a href="./courses.html">
+                        <button class="continueLearning">
+                            <p class="continueLearningText"> Continue Learning </p>
+                        </button>
+                    </a>
+                    <p class="lessonsNumbers"> 18/20 Lessons </p>
+                </div>
+            </div>
+        </div>
+        <div class="recentActivity">
+            <p class="recentActivityText"> Recent Activity</p>
+            </br>
+            <div class="container">
+                <div class="activityFrame">
+                    <p class="activityText1"> Complete Chapter 5 in Unity 
+                        Game Development</p>
+                    <p class="activityText2"> 2 hours ago </p>
+                </div>
+                <div class="activityFrame">
+                    <p class="activityText1"> Earn Certificate in React  </p>
+                    <p class="activityText2"> 1 week ago </p>
+                </div>
+                <div class="activityFrame">
+                    <p class="activityText1"> Submitted Assingment: E-Commerce Platform P...</p>
+                    <p class="activityText2"> 3 days ago </p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
