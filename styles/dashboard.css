@@ -298,6 +298,12 @@ header {
     background-color: #2A3A4B;
     box-shadow: 
         0vw 0.1vw 0.3vw rgb(182, 182, 182);
+
+    cursor: pointer;
+}
+
+.redirection {
+    height: 2vw;
 }
 
 .buttonText {
@@ -403,6 +409,8 @@ header {
     border-radius: 0.6vw;
     box-shadow: 
         0vw 0.1vw 0.3vw rgb(182, 182, 182);
+
+    cursor: pointer;
 }
 
 .lessonsNumbers {
