@@ -35,14 +35,23 @@
             </p>
         </a>
 
-        <button class="profile">
-            <div class="profilePic"></div>
-            <p class="username">
-                Juan </br>
-                Velandia
-            </p> </br>
-            <img class="downArrow" src="../img/downArrow.png" />
-        </button>
+        <div class="profile-container">
+            <button id="profileButton" class="profile">
+                <div class="profilePic"></div>
+                <p class="username"><br></p>
+                <img class="downArrow" src="../img/downArrow.png" />
+            </button>
+
+            <div id="dropdownMenu" class="dropdown-menu">
+                <div class="dropdown-avatar" id="avatar"></div>
+                <p class="full-name" id="fullName">Cargando...</p>
+                <button onclick="location.href='../index.html'" class="dropdown-btn">Log out</button>
+                <button onclick="location.href='profilestudent.html'" class="dropdown-btn">See profile</button>
+            </div>
+
+            <div>
+
+
     </header> </br>
     <div class="mainContainer">
         <p class="pageTittle">
@@ -59,7 +68,8 @@
                 </div>
                 <div class="courseLine"></div>
                 <div class="forwardInfo">
-                    <p class="textInfo"> Create immersive 3D games with Unity. Learn C# programming, game physics, and professional game development... </p>
+                    <p class="textInfo"> Create immersive 3D games with Unity. Learn C# programming, game physics, and
+                        professional game development... </p>
                 </div>
                 <div class="things2_1">
                     <button class="moreInfo">
@@ -93,13 +103,15 @@
                         Prerequisites
                     </p>
                     <p class="behindInfo">
-                        No prior experience required. Basic computer skills and understanding of gaming concepts recommended.
+                        No prior experience required. Basic computer skills and understanding of gaming concepts
+                        recommended.
                     </p>
                     <p class="subtittle">
                         What You’ll Learn
                     </p>
                     <p class="behindInfo">
-                        Create basic games using Blueprints, design game levels, implement basic AI, and understand game optimization techniques.
+                        Create basic games using Blueprints, design game levels, implement basic AI, and understand game
+                        optimization techniques.
                     </p>
                     <p class="subtittle">
                         Course Structure
@@ -120,7 +132,8 @@
                 </div>
                 <div class="courseLine"></div>
                 <div class="forwardInfo">
-                    <p class="textInfo"> Create immersive 3D games with Unity. Learn C# programming, game physics, and professional game development... </p>
+                    <p class="textInfo"> Create immersive 3D games with Unity. Learn C# programming, game physics, and
+                        professional game development... </p>
                 </div>
                 <div class="things2_1">
                     <button class="moreInfo">
@@ -133,92 +146,95 @@
                     </a>
                 </div>
             </div>
-            </div>
         </div>
-        <div class="line2"></div>
-        <p class="sectionText2"> Backend </p>
-        <div class="coursesFrames">
-            <div class="imgContainer">
-            </div>
-            <div class="things1">
-                <p class="courseTittle"> Unity Game Development</p>
-            </div>
-            <div class="courseLine"></div>
-            <div class="forwardInfo">
-                <p class="textInfo"> Create immersive 3D games with Unity. Learn C# programming, game physics, and professional game development... </p>
-            </div>
-            <div class="things2_1">
-                <button class="moreInfo">
-                    <p class="moreInfoText"> More Info </p>
-                </button>
-                <a href="./infoCourses.html">
-                    <button class="enrollNow">
-                        <p class="enrollNowText"> Enroll Now </p>
-                    </button>
-                </a>
-            </div>
+    </div>
+    <div class="line2"></div>
+    <p class="sectionText2"> Backend </p>
+    <div class="coursesFrames">
+        <div class="imgContainer">
         </div>
-        <div class="coursesFrames">
-            <div class="miniTopbar">
-                <div class="timeFrame">
-                    <img class="clock" src="../img/clock.png">
-                    <p> 8 Weeks </p>
-                </div>
-                <p class="difficulty"> Difficulty </p>
-                <div class="difficultyContainer">
-                    <div class="difficultyLevel"></div>
-                    <div class="difficultyLevel"></div>
-                    <div class="difficultyLevel"></div>
-                    <div class="difficultyLevel"></div>
-                    <div class="difficultyLevel"></div>
-                </div>
-            </div>
-            <div class="courseBehindLine"></div>
-            <div class="behindInfoFrame">
-                <p class="subtittle">
-                    Prerequisites
-                </p>
-                <p class="behindInfo">
-                    No prior experience required. Basic computer skills and understanding of gaming concepts recommended.
-                </p>
-                <p class="subtittle">
-                    What You’ll Learn
-                </p>
-                <p class="behindInfo">
-                    Create basic games using Blueprints, design game levels, implement basic AI, and understand game optimization techniques.
-                </p>
-                <p class="subtittle">
-                    Course Structure
-                </p>
-                <p class="behindInfo">
-                    16 lessons, 8 practical exercises, 4 mini-projects, and a final game project.
-                </p>
-            </div>
-            <button class="closeButton">
-                <p> Close </p>
+        <div class="things1">
+            <p class="courseTittle"> Unity Game Development</p>
+        </div>
+        <div class="courseLine"></div>
+        <div class="forwardInfo">
+            <p class="textInfo"> Create immersive 3D games with Unity. Learn C# programming, game physics, and
+                professional game development... </p>
+        </div>
+        <div class="things2_1">
+            <button class="moreInfo">
+                <p class="moreInfoText"> More Info </p>
             </button>
-        </div>
-        <div class="coursesFrames2">
-            <div class="imgContainer">
-            </div>
-            <div class="things1">
-                <p class="courseTittle"> Unity Game Development</p>
-            </div>
-            <div class="courseLine"></div>
-            <div class="forwardInfo">
-                <p class="textInfo"> Create immersive 3D games with Unity. Learn C# programming, game physics, and professional game development... </p>
-            </div>
-            <div class="things2_1">
-                <button class="moreInfo">
-                    <p class="moreInfoText"> More Info </p>
+            <a href="./infoCourses.html">
+                <button class="enrollNow">
+                    <p class="enrollNowText"> Enroll Now </p>
                 </button>
-                <a href="./infoCourses.html">
-                    <button class="enrollNow">
-                        <p class="enrollNowText"> Enroll Now </p>
-                    </button>
-                </a>
+            </a>
+        </div>
+    </div>
+    <div class="coursesFrames">
+        <div class="miniTopbar">
+            <div class="timeFrame">
+                <img class="clock" src="../img/clock.png">
+                <p> 8 Weeks </p>
+            </div>
+            <p class="difficulty"> Difficulty </p>
+            <div class="difficultyContainer">
+                <div class="difficultyLevel"></div>
+                <div class="difficultyLevel"></div>
+                <div class="difficultyLevel"></div>
+                <div class="difficultyLevel"></div>
+                <div class="difficultyLevel"></div>
             </div>
         </div>
+        <div class="courseBehindLine"></div>
+        <div class="behindInfoFrame">
+            <p class="subtittle">
+                Prerequisites
+            </p>
+            <p class="behindInfo">
+                No prior experience required. Basic computer skills and understanding of gaming concepts recommended.
+            </p>
+            <p class="subtittle">
+                What You’ll Learn
+            </p>
+            <p class="behindInfo">
+                Create basic games using Blueprints, design game levels, implement basic AI, and understand game
+                optimization techniques.
+            </p>
+            <p class="subtittle">
+                Course Structure
+            </p>
+            <p class="behindInfo">
+                16 lessons, 8 practical exercises, 4 mini-projects, and a final game project.
+            </p>
+        </div>
+        <button class="closeButton">
+            <p> Close </p>
+        </button>
+    </div>
+    <div class="coursesFrames2">
+        <div class="imgContainer">
+        </div>
+        <div class="things1">
+            <p class="courseTittle"> Unity Game Development</p>
+        </div>
+        <div class="courseLine"></div>
+        <div class="forwardInfo">
+            <p class="textInfo"> Create immersive 3D games with Unity. Learn C# programming, game physics, and
+                professional game development... </p>
+        </div>
+        <div class="things2_1">
+            <button class="moreInfo">
+                <p class="moreInfoText"> More Info </p>
+            </button>
+            <a href="./infoCourses.html">
+                <button class="enrollNow">
+                    <p class="enrollNowText"> Enroll Now </p>
+                </button>
+            </a>
+        </div>
+    </div>
     </div>
 </body>
 <script src="../scripts/courses.js"> </script>
