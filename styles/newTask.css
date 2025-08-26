@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'Inter_Black';
+    src: url(../fonts/Inter_18pt-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Inter_Bold';
+    src: url(../fonts/Inter_18pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter_SemiBold';
+    src: url(../fonts/Inter_18pt-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter_ExtraBold';
+    src: url(../fonts/Inter_18pt-ExtraBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body { 
+    width: 100%;
+    height: 100vh;
+
+    display: block;
+    
+    background-color: #E3E3E3;
+    
+    align-items: center;
+    text-align: center;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.topBar {
+    width: 100%;
+    height: 3.2vw;
+
+    background-color: #2A3A4B;
+    position: fixed;
+
+    z-index: 1;
+}
+
+.lmsLogo {
+    font-family: 'Inter_ExtraBold';
+    font-size: 0.9vw;
+    
+    color: white;
+    text-align: left;
+
+    margin-left: 2vw;
+}
+
+.text1 {
+    font-family: 'Inter_ExtraBold';
+    font-size: 0.8vw;
+
+    color: white;
+
+    margin-left: 29.5vw;
+}
+
+.text1:hover {
+    border-bottom: solid 0.090vw white;
+}
+
+.text2 {
+    font-family: 'Inter_ExtraBold';
+    font-size: 0.8vw;
+
+    color: white;
+
+    margin-left: 5vw;
+}
+
+.text2:hover {
+    border-bottom: solid 0.090vw white;
+}
+
+.text3 {
+    font-family: 'Inter_ExtraBold';
+    font-size: 0.8vw;
+
+    color: white;
+
+    margin-left: 5vw;
+}
+
+.text3:hover {
+    border-bottom: solid 0.090vw white;
+}
+
+.text4 {
+    font-family: 'Inter_ExtraBold';
+    font-size: 0.8vw;
+
+    color: white;
+
+    margin-left: 5vw;
+}
+
+.text4:hover {
+    border-bottom: solid 0.090vw white;
+}
+
+.profile {
+    width: 7.5vw;
+    height: 1.8vw;
+    
+    outline: none;
+    border: none;
+    border-radius: 0.4vw;
+    background-color: #3F5368;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(54, 54, 54);
+    cursor: pointer;
+    
+    margin-left: 24vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilePic {
+    width: 1.3vw;
+    height: 1.3vw;
+
+    background-color: white;
+    border-radius: 100%;
+}
+
+.username {
+    font-family: 'Inter_Bold';
+    font-size: 0.55vw;
+
+    color: white;
+
+    text-align: left;
+
+    margin-left: 0.8vw;
+}
+
+.downArrow {
+    width: 0.4vw;
+    height: 0.4vw;
+
+    margin-left: 0.8vw;
+}
+
+.mainContainer {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding-bottom: 3vw;
+}
+
+.backButton {
+    width: 12vw;
+    height: 2.6vw;
+
+    border: none;
+    border-radius: 0.6vw;
+    background-color: #2A3A4B;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(54, 54, 54);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4vw;
+    margin-left: -42.6vw;
+
+    font-family: 'Inter_Extrabold';
+    font-size: 1.5vw;
+    color: white;
+    gap: 1vw;
+}
+
+.goBackImg {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.tittleContainer {
+    width: 85vw;
+    height: 3vw;
+
+    margin-top: 2vw;
+
+    text-align: left;
+}
+
+.taskTittle {
+    font-family: 'Inter_Extrabold';
+    font-size: 2.5vw;
+
+    margin-left: 0vw;
+}
+
+.subContainer {
+    border: red solid 0.1vw;
+    width: 85vw;
+    height: auto;
+
+    margin-top: 1vw;
+
+    display: grid;
+    grid: auto auto;
+}
+
+.infoFrame {
+    width: 60vw;
+    height: 35vw;
+
+    border: none;
+    border-radius: 0.6vw;
+    background-color: #FFFFFF;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(95, 95, 95);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter_Extrabold';
+    font-size: 1.5vw;
+    color: white;
+    gap: 1vw;
+
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+
+.pointsFrame {
+    width: 20vw;
+    height: 8vw;
+
+    border: none;
+    border-radius: 0.6vw;
+    background-color: #FFFFFF;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(95, 95, 95);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter_Extrabold';
+    font-size: 1.5vw;
+    color: white;
+    gap: 1vw;
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.repositoryFrame {
+    width: 20vw;
+    height: 17vw;
+
+    border: none;
+    border-radius: 0.6vw;
+    background-color: #FFFFFF;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(95, 95, 95);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter_Extrabold';
+    font-size: 1.5vw;
+    color: white;
+    gap: 1vw;
+
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.sendButton {
+    width: 20vw;
+    height: 3vw;
+
+    border: none;
+    border-radius: 0.6vw;
+    background-color: #2A3A4B;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(95, 95, 95);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter_Extrabold';
+    font-size: 1.5vw;
+    color: white;
+    gap: 1vw;
+
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
