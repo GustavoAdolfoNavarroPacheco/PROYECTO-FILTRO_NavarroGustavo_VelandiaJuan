@@ -29,12 +29,45 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 
   if (user.role === 'student' && Array.isArray(user.progress) && user.progress.length > 0) {
-    const progressData = user.progress[0].total;
-    const overallProgressElement = document.querySelector('.things1 .coursePercentage');
-    if (overallProgressElement) {
-      overallProgressElement.textContent = progressData + '%';
+    const progressData = user.progress[0];
 
+    const unityPercentage = document.querySelector('.things1 .coursePercentage');
+    if (unityPercentage) unityPercentage.textContent = progressData.cursoUnity + '%';
 
-    }
+    const nodejsPercentage = document.querySelector('.things2 .coursePercentage');
+    if (nodejsPercentage) nodejsPercentage.textContent = progressData.cursoNode + '%';
+
+    const jsPercentage = document.querySelector('.things3 .coursePercentage');
+    if (jsPercentage) jsPercentage.textContent = progressData.cursoJava + '%';
+
+    const unrealPercentage = document.querySelector('.things4 .coursePercentage');
+    if (unrealPercentage) unrealPercentage.textContent = progressData.cursoUnreal + '%';
+
+    const gameDesignPercentage = document.querySelector('.things5 .coursePercentage');
+    if (gameDesignPercentage) gameDesignPercentage.textContent = progressData.cursoGameDesign + '%';
+
+    const apiDevPercentage = document.querySelector('.things6 .coursePercentage');
+    if (apiDevPercentage) apiDevPercentage.textContent = progressData.cursoAPI + '%';
+
+    const databaseDesignPercentage = document.querySelector('.things7 .coursePercentage');
+    if (databaseDesignPercentage) databaseDesignPercentage.textContent = progressData.cursoDatabase + '%';
+
+    const reactMasteryPercentage = document.querySelector('.things8 .coursePercentage');
+    if (reactMasteryPercentage) reactMasteryPercentage.textContent = progressData.cursoReact + '%';
+
+   
+    const totalProgress = (
+      parseInt(progressData.cursoUnity) +
+      parseInt(progressData.cursoNode) +
+      parseInt(progressData.cursoJava) +
+      parseInt(progressData.cursoUnreal) +
+      parseInt(progressData.cursoGameDesign) +
+      parseInt(progressData.cursoAPI) +
+      parseInt(progressData.cursoDatabase) +
+      parseInt(progressData.cursoReact)
+    ) / 8;
+
+    const overallProgressElement = document.querySelector('.frame3 .pendingAssignmentsNumber');
+    if (overallProgressElement) overallProgressElement.textContent = totalProgress + '%';
   }
 });
