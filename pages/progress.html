@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/progress.css">
+    <title> LMS Portal </title>
+</head>
+
+<body>
+    <header class="topBar">
+        <p class="lmsLogo">
+            LMS </br>
+            PORTAL
+        </p>
+        <a href="./dashboard.html">
+            <p class="text1">
+                Dashboard
+            </p>
+        </a>
+        <a href="./courses.html">
+            <p class="text2">
+                Courses
+            </p>
+        </a>
+        <a href="./assingments.html">
+            <p class="text3">
+                Assingments
+            </p>
+        </a>
+        <a href="./progress.html">
+            <p class="text4">
+                Progress
+            </p>
+        </a>
+
+        <div class="profile-container">
+            <button id="profileButton" class="profile">
+                <div class="profilePic"></div>
+                <p class="username"><br></p>
+                <img class="downArrow" src="../img/downArrow.png" />
+            </button>
+
+            <div id="dropdownMenu" class="dropdown-menu">
+                <div class="dropdown-avatar" id="avatar"></div>
+                <p class="full-name" id="fullName">Cargando...</p>
+                <button onclick="location.href='../index.html'" class="dropdown-btn">Log out</button>
+                <button onclick="location.href='profilestudent.html'" class="dropdown-btn">See profile</button>
+            </div>
+
+            <div>
+
+    </header>
+</body>
+<script src="../scripts/progress.js"> </script>
+
+</html>
