@@ -34,9 +34,6 @@ window.addEventListener('DOMContentLoaded', () => {
     if (overallProgressElement) {
       overallProgressElement.textContent = progressData + '%';
 
-      console.log(user);
-console.log(user.progress);
-console.log(progressData);
 
     }
   }
