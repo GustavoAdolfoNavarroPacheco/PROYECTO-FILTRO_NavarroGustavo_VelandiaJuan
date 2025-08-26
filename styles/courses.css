@@ -217,6 +217,8 @@ header {
     border-radius: 0.8vw;
     box-shadow:
         0vw 0.1vw 0.3vw rgb(182, 182, 182);
+
+    margin-bottom: 2vw;
 }
 
 .imgContainer {
