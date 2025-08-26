@@ -218,7 +218,6 @@ header {
 }
 
 .subContainer {
-    border: red solid 0.1vw;
     width: 85vw;
     height: auto;
 
@@ -240,7 +239,6 @@ header {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
     font-family: 'Inter_Extrabold';
@@ -324,4 +322,107 @@ header {
 
     grid-column: 2/3;
     grid-row: 3/4;
+}
+
+.additionalCommentsInput {
+    resize: none;
+}
+
+.textContainer {
+    width: 56vw;
+    height: 10vw;
+    
+    margin-top: 2vw;
+}
+
+.infoCourseTxt {
+    font-family: 'Inter_Extrabold';
+    font-size: 1.5vw;
+
+    color: #2A3A4B;
+    text-align: left;
+}
+
+.materialButton {
+    width: 12vw;
+    height: 2.5vw;
+
+    border: none;
+    border-radius: 0.6vw;
+    background-color: #D9D9D9;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(95, 95, 95);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter_Extrabold';
+    font-size: 1vw;
+    color: #2A3A4B;
+
+    margin-left: -28vw;
+    margin-top: -2vw;
+}
+
+.line {
+    width: 56vw;
+    height: 0.04vw;
+
+    background-color: #2A3A4B;
+
+    opacity: 0.5;
+    
+    margin-top: 2vw;
+}
+
+span {
+    opacity: 0.5;
+}
+
+.additionalComments {
+    font-family: 'Inter_Extrabold';
+    font-size: 2vw;
+
+    color: #2A3A4B;
+    opacity: 0.5;
+
+    margin-left: -34.5vw;
+}
+
+.additionalCommentsInput {
+    width: 55vw;
+    height: 10vw;
+
+    border: none;
+    border-radius: 0.6vw;
+    background-color: #D9D9D9;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(95, 95, 95);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter_Extrabold';
+    font-size: 1vw;
+    color: black;
+
+    margin-top: 1vw;
+
+    padding-top: 1vw;
+    padding-left: 1vw;
+}
+
+.additionalCommentsInput:focus {
+    border: none;
+    outline: none;
+    box-shadow: 
+        0vw 0.1vw 0.3vw rgb(22, 22, 22);
+}
+
+.calendar {
+    width: 1vw;
+    height: 1lvw;
 }
