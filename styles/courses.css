@@ -49,6 +49,8 @@ header {
 
     background-color: #2A3A4B;
     position: fixed;
+
+    z-index: 1;
 }
 
 .lmsLogo {
@@ -160,11 +162,14 @@ header {
 
 .mainContainer {
     width: 100%;
+    height: auto;
 
     display: flex;
     flex-direction: column;
 
     align-items: center;
+
+    padding-bottom: 3vw;
 }
 
 .pageTittle {
@@ -456,8 +461,7 @@ header {
 
     background-color: black;
 
-    margin-top: 2vw;
-    margin-left: 7.5vw;
+    margin-top: 3vw;
     z-index: -1;
 }
 
@@ -536,3 +540,16 @@ header {
   margin-bottom: 0.5vw;
 }
 
+
+
+.line3 {
+    width: 85vw;
+    height: 0.06vw;
+
+    opacity: 0.2;
+
+    background-color: black;
+
+    margin-top: 3vw;
+    z-index: -1;
+}
