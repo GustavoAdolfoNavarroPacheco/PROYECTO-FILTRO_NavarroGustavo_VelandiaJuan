@@ -28,6 +28,8 @@ window.addEventListener('DOMContentLoaded', () => {
     dropdownMenu.classList.toggle('show');
   });
 
+  
+
 
   window.addEventListener('click', () => {
     dropdownMenu.classList.remove('show');
