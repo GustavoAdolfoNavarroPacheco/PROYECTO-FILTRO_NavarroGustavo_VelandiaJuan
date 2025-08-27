@@ -49,6 +49,8 @@ header {
 
     background-color: #2A3A4B;
     position: fixed;
+
+    z-index: 1;
 }
 
 .lmsLogo {

@@ -49,6 +49,8 @@ header {
 
     background-color: #2A3A4B;
     position: fixed;
+
+    z-index: 1;
 }
 
 .lmsLogo {
@@ -158,28 +160,6 @@ header {
     margin-left: 0.8vw;
 }
 
-.mainContainer {
-    width: 100%;
-    height: auto;
-
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-
-    padding-bottom: 2vw;
-}
-
-.banner {
-    width: 85vw;
-    height: 10vw;
-
-    background-color: #2A3A4B;
-    border-radius: 2vw;
-
-    margin-top: 1vw;
-}
-
 .profile-container {
     position: relative;
     display: inline-block;
@@ -245,3 +225,197 @@ header {
     margin-top: 3vw;
     z-index: -1;
 }
+
+.mainContainer {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding-bottom: 2vw;
+}
+
+.banner {
+    width: 85vw;
+    height: 15vw;
+
+    background-color: #2A3A4B;
+    border-radius: 1vw;
+    box-shadow:
+        0vw 0.1vw 0.3vw rgb(92, 92, 92);
+
+    margin-top: 5vw;
+}
+
+.imgContainer {
+    width: 12vw;
+    height: 12vw;
+
+    background-image: url(../img/perfilPic.png);
+    background-size: cover;
+    border-radius: 100%;
+    box-shadow:
+        0vw 0.1vw 0.3vw rgb(92, 92, 92);
+    margin-top: -6.5vw;
+}
+
+.nameContainer {
+    font-family: 'Inter_Extrabold';
+    font-size: 2vw;
+
+    margin-top: 1vw;
+}
+
+.chargeInCamp {
+    font-family: 'Inter_Bold';
+    font-size: 1vw;
+
+    display: flex;
+    justify-content: center;
+    gap: 0.3vw;
+}
+
+.chargeInCamp p {
+    opacity: 0.5;
+}
+
+.infoContainer_1 {
+    width: 85vw;
+    height: 20vw;
+
+    background-color: white;
+    border-radius: 1vw;
+    box-shadow:
+        0vw 0.1vw 0.3vw rgb(92, 92, 92);
+
+    margin-top: 2vw;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.personalInformation {
+    width: 80vw;
+    height: 3vw;
+
+    background-color: #E3E3E3;
+    border-radius: 0.5vw;
+    box-shadow:
+        0vw 0.1vw 0.3vw rgb(92, 92, 92);
+
+    margin-top: 2vw;
+    margin-left: 2vw;
+
+    display: block;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter_Extrabold';
+    font-size: 2vw;
+
+    text-align: left;
+
+    padding-left: 1vw;
+}
+
+.infoContainer {
+    width:  81vw;
+    height: 20vw;
+
+    margin-top: 2vw;
+    margin-left: 2vw;
+
+    display: grid;
+    grid: auto auto;
+}
+
+.subtittles {
+    font-family: 'Inter_Extrabold';
+    font-size: 1vw;
+
+    color: #000000;
+
+    text-align: left;
+}
+
+.frame {
+    width: 38vw;
+    height: 2.5vw;
+
+    background-color: #E3E3E3;
+    border-radius: 0.5vw;
+    box-shadow:
+        0vw 0.1vw 0.3vw rgb(92, 92, 92);
+    
+    display: flex;
+    align-items: center;
+
+    padding-left: 1vw;
+    
+}
+
+.inFrame {
+    font-family: 'Inter_Extrabold';
+    font-size: 1vw;
+
+    color: #000000;
+    opacity: 0.5;
+
+    text-align: left;
+}
+
+#cuardro1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#cuardro2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: -0.8vw;
+}
+
+#cuardro3 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-left: 2.8vw;
+}
+
+#cuardro4 {
+    grid-column: 2/3;
+    grid-row: 2/3; 
+    margin-left: 2.8vw;
+    margin-top: -0.8vw;
+}
+
+#cuardro5 {
+    grid-column: 1/2;
+    grid-row: 3/4; 
+}
+
+#cuardro6 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-top: -0.8vw;
+}
+
+#cuardro7 {
+    grid-column: 2/3;
+    grid-row: 3/4; 
+    margin-left: 2.8vw;
+}
+
+#cuardro8 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-left: 2.8vw;
+    margin-top: -0.8vw;
+}
+
+
