@@ -57,3 +57,6 @@ cd PROYECTO-FILTRO_NavarroGustavo_VelandiaJuan
 
 [Click Aqui](https://gustavoadolfonavarropacheco.github.io/PROYECTO-FILTRO_NavarroGustavo_VelandiaJuan/)
 #### Desarrollado por Gustavo Adolfo Navarro Pacheco y Juan Esteban Velandia Beltran
+
+
+### [LINK VIDEO SUSTENTACION](https://github.com/GustavoAdolfoNavarroPacheco/PROYECTO-FILTRO_NavarroGustavo_VelandiaJuan)
