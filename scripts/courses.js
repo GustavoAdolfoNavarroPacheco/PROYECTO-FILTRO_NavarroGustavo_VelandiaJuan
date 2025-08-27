@@ -43,7 +43,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         courseEl.innerHTML = `
           <div class="imgContainer">
-            <img src="${course.thumbnail}" alt="${course.title}" style="width:80px; height:80px;">
+            <img src="${course.thumbnail}" alt="${course.title}" style="width:5vw;">
           </div>
           <div class="things1">
             <p class="courseTittle">${course.title}</p>

@@ -205,29 +205,35 @@ header {
 
 .courses {
     display: flex;
-    gap: 2vw;
+    flex-wrap: wrap;
+    gap: 1vw;
     margin-top: 1.5vw;
+    margin-left: -5vw;
+    width: 80vw;
+    padding-left: 28vw;
 }
 
 .coursesFrames {
     width: 27vw;
     height: 23vw;
-
     background-color: white;
     border-radius: 0.8vw;
-    box-shadow:
-        0vw 0.1vw 0.3vw rgb(182, 182, 182);
-
+    box-shadow: 0vw 0.1vw 0.3vw rgb(182, 182, 182);
     margin-bottom: 2vw;
+}
+
+.row {
+    display: flex;
+    gap: 1vw;
+    width: 100%;
 }
 
 .imgContainer {
     width: 27vw;
-    height: 8vw;
+    height: 6vw;
 
-    background-image: url(../img/unityBanner.png);
-    background-size: cover;
-
+    background-color: #2A3A4B;
+    padding-top: 1vw;
     border-top-right-radius: 0.8vw;
     border-top-left-radius: 0.8vw;
 }
